@@ -1,7 +1,6 @@
 # Laravel Nova Chat
 <p align="center">
  <a href="https://packagist.org/packages/BianrCode/nova-chat"><img src="https://poser.pugx.org/BinarCode/nova-chat/v/stable.svg" alt="Latest Stable Version"></a>
- 
   <a href="https://packagist.org/packages/BinarCode/nova-chat"><img src="https://poser.pugx.org/BinarCode/nova-chat/license.svg" alt="License"></a>
 </p>
 
