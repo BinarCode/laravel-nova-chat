@@ -1,6 +1,8 @@
 # Laravel Nova Chat
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/binarcode/nova-chat.svg?style=flat-square)](https://packagist.org/packages/binarcode/nova-chat)
+ <a href="https://packagist.org/packages/BianrCode/nova-chat"><img src="https://poser.pugx.org/BinarCode/nova-chat/v/stable.svg" alt="Latest Stable Version"></a>
+ 
+  <a href="https://packagist.org/packages/BinarCode/nova-chat"><img src="https://poser.pugx.org/BinarCode/nova-chat/license.svg" alt="License"></a>
 
 This is a laravel nova implementation for a real time chat. You can manage who can see whom via Laravel Policies.
 
