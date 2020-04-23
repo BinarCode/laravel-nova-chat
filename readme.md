@@ -7,6 +7,13 @@
 
 This is a laravel nova implementation for a real time chat. You can manage who can see whom via Laravel Policies.
 
+# How it looks
+
+![Message List](/docs/list.png)
+
+
+![New Message](/docs/new.png)
+
 ## Installation
 
 You can install the package via composer:
