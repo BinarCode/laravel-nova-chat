@@ -1,0 +1,51 @@
+{
+    "name": "binarcode/nova-chat",
+    "description": "A realtime chat implementation for laravel nova.",
+    "keywords": [
+        "binarcode",
+        "nova-chat"
+    ],
+    "homepage": "https://github.com/binarcode/nova-chat",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Eduard Lupacescu",
+            "email": "eduard.lupacescu@binarcode.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "illuminate/support": "^7.7",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Binarcode\\NovaChat\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Binarcode\\NovaChat\\Tests\\": "tests"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false,
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Binarcode\\NovaChat\\NovaChatServiceProvider"
+            ]
+        }
+    }
+}
