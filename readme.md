@@ -4,7 +4,9 @@
   <a href="https://packagist.org/packages/BinarCode/nova-chat"><img src="https://poser.pugx.org/BinarCode/nova-chat/license.svg" alt="License"></a>
 </p>
 
-This is a laravel nova implementation for a real time chat. You can manage who can see whom via Laravel Policies.
+This is a laravel nova implementation for a chat. You can manage who can see whom via Laravel Policies.
+
+In the next version the implementation will include real time echo.
 
 # How it looks
 
