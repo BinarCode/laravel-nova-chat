@@ -22,7 +22,7 @@ class MessageModel extends Model
     ];
 
     protected $with = [
-        'to',
+        'sender',
     ];
 
     protected static function booted()
@@ -34,17 +34,18 @@ class MessageModel extends Model
 
     public function getTable()
     {
+
         return config('nova-chat.messages_table', 'messages');
     }
 
     public function sender()
     {
-        return $this->belongsTo(config('nova-chat.recipients_model'), 'from_id', 'id');
+        return $this->belongsTo(config('nova-chat.recipients_model', RecipientModel::class), 'from_id', 'id');
     }
 
     public function recipient()
     {
-        return $this->belongsTo(config('nova-chat.recipients_model'), 'to_id', 'id');
+        return $this->belongsTo(config('nova-chat.recipients_model', RecipientModel::class), 'to_id', 'id');
     }
 
     public function scopeUnread($query)
