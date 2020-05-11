@@ -34,7 +34,6 @@ class MessageModel extends Model
 
     public function getTable()
     {
-
         return config('nova-chat.messages_table', 'messages');
     }
 
